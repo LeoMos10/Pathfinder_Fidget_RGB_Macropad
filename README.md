@@ -5,7 +5,7 @@ A custom 4-key RGB fidget game / macropad /carrier board for seed studio XIAO
 
 
 ![pbc](ASSETS/pbc.front.png)
-![art](ASSETS/back art.png)
+![art](ASSETS/back_art.png)
 
 
 ## Parts: (all THT for easier assembly exept led)
