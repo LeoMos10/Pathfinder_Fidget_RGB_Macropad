@@ -1,0 +1,4 @@
+(version 1)
+(rule "Reverse-mount SK6812 cutout clearance"
+    (constraint edge_clearance (min 0.2mm))
+    (condition "A.Reference == 'D1' || A.Reference == 'D2' ||  A.Reference == 'D3' || A.Reference == 'D4'"))

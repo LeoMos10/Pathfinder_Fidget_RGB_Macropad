@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "HackPad") (type "KiCad") (uri "${KIPRJMOD}/symbols/HackPad.kicad_sym") (options "") (descr "Local XIAO and SK6812 symbols"))
+)
