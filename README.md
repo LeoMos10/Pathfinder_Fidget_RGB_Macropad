@@ -63,6 +63,7 @@ Front copper and back copper in the editor (red is F.Cu, blue is B.Cu):
 
 ## BOM
 [CSV BOM with prices and links](production/bom.csv)
+[Prices screenshot](https://github.com/LeoMos10/Pathfinder_Fidget_RGB_Macropad/tree/main/ASSETS/prices)
 
 
 | Quantity | Name | Component| Footprint | Notes | 
