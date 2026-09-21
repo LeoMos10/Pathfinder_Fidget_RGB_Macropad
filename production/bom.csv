@@ -1,0 +1,14 @@
+Designator;Quantity;Component;Value;Footprint;Note;Minimum order;Prezzo unitario EUR;Prezzo totale EUR;Link
+U1;1;Seeed Studio XIAO RP2040;MOUDLE-SEEEDUINO-XIAO;XIAO-Generic-Hybrid-14P-2.54-21X17.8MM;Microcontrollore;1;16.09;16,09;https://www.aliexpress.com/item/1005007427287029.html 
+J1A1-J1B1;2;Pin header maschio 1x7;Conn_01x07;PinHeader_1x07_P2.54mm_Vertical;Opzionale;0;0;0;
+SW1-SW4;4;Switch compatibile Cherry MX;SW_Push;SW_Cherry_MX_1.00u_PCB;PCB mount 5 pin 1u;10;;6,62;https://www.aliexpress.com/item/1005008998414457.html 
+D1-D4;4;SK6812MINI-E;SK6812MINI-E;LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount;LED RGB indirizzabile reverse mount;20;;2,35;https://www.aliexpress.com/item/1005005193716172.html 
+C1-C4;4;Condensatore ceramico;100 nF;C_Disc_D5.0mm_W2.5mm_P2.50mm;Disaccoppiamento LED;;;2,29;https://www.aliexpress.com/item/32868001945.html 
+R1-R4;4;Resistenza;1 kOhm;R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;Solo se H1-H4 sono GPIO;;;1,75;https://www.aliexpress.com/item/32948115055.html
+R5;1;Resistenza;330 Ohm;R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;In serie al DIN dei LED;;;1,83;https://www.aliexpress.com/item/32948115055.html 
+H1-H4;4;Foro per montaggio;M4 4.3 mm;MountingHole_Pad;Solo se usati per montaggio;0;0;0;
+;;;;;;Part only=;;30,93;
+;;;;; import charges ALIEXPRESS =;;;21,47;
+;;;;;Final part (- 3,14 discount);;;49,26;
+;;;PBC (cheapest shipping+desktop app);;;;;8,88;
+;;;;;;;FULL;58,14;
