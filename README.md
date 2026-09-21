@@ -98,5 +98,5 @@ HARDWARE/kicad/path_finder.kicad_dru
 ## Extra stuff
 
 easily soldable, perfect for beginners in soldering and coding
-
+The contributors is both me
 see [docs](DOCS.md)
