@@ -1,6 +1,7 @@
 # Pathfinder\_Fidget\_RGB\_Macropad
 
 A custom 4-key RGB fidget game / macropad /carrier board for seed studio XIAO
+[Prices screenshot](https://github.com/LeoMos10/Pathfinder_Fidget_RGB_Macropad/tree/main/ASSETS/prices)
 
 
 
