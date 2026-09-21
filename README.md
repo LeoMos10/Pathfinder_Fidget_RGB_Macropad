@@ -3,6 +3,7 @@
 A custom 4-key RGB fidget game / macropad /carrier board for seed studio XIAO
 [Prices screenshot](https://github.com/LeoMos10/Pathfinder_Fidget_RGB_Macropad/tree/main/ASSETS/prices)
 
+[docs](DOCS.md)
 
 
 ![pbc](ASSETS/pbc.front.png)
@@ -98,5 +99,7 @@ HARDWARE/kicad/path_finder.kicad_dru
 ## Extra stuff
 
 easily soldable, perfect for beginners in soldering and coding
+
 The contributors is both me
+
 see [docs](DOCS.md)
