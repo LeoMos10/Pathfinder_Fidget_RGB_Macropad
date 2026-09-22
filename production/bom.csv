@@ -1,21 +1,13 @@
-Designator,Qty_Required,Component,Value,Footprint,Stato,Qty_To_Buy,LCSC#,MPN,Prezzo unitario,Prezzo riga,Valuta,Link
-U1,1,Seeed Studio XIAO RP2040,102010428,XIAO-Generic-Hybrid-14P-2.54-21X17.8MM,Nel carrello LCSC,1,C22184628,102010428,5.4933,5.49,USD,https://www.lcsc.com/product-detail/C22184628.html
-SW1-SW4,4,Switch meccanico compatibile Cherry MX,CPG151101D06,SW_Cherry_MX_1.00u_PCB,Nel carrello LCSC - verificare impronta MX 5 pin prima di ordinare,5,C49234237,CPG151101D06,0.1072,0.54,USD,https://www.lcsc.com/product-detail/C49234237.html
-D1-D4,4,LED RGB indirizzabile reverse-mount,SK6812MINI-E,LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount,Nel carrello LCSC,10,C5149201,SK6812MINI-E,0.0809,0.81,USD,https://www.lcsc.com/product-detail/C5149201.html
-C1-C4,4,Condensatore ceramico THT 100 nF,100 nF,C_Disc_D5.0mm_W2.5mm_P2.50mm,Nel carrello LCSC,10,C2169670,K104Z15Y5VF5TL2,0.1297,1.30,USD,https://www.lcsc.com/product-detail/C2169670.html
-R1-R4,4,Resistenza THT 1 kOhm,1 kOhm,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Opzionale - serve solo se H1-H4 sono GPIO,0,C57435,MFR0W4F1001A50,0.0141,0.00,USD,https://www.lcsc.com/product-detail/C57435.html
-R5,1,Resistenza THT 330 Ohm,330 Ohm,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,OBBLIGATORIA - non nel carrello mostrato,0,C119313,MF1/4W-330Ohm,0.0116,0.00,USD,https://www.lcsc.com/product-detail/C119313.html
-J1A1-J1B1,2,Pin header maschio 1x7 2.54 mm,Conn_01x07,PinHeader_1x07_P2.54mm_Vertical,Opzionale - selezionato ma non nel carrello mostrato,0,C2337,2.54-1*40P,0.1601,0.00,USD,https://www.lcsc.com/product-detail/C2337.html
-H1-H4,4,Viti M4 e distanziali,M4 4.3 mm,MountingHole_Pad,Opzionale - solo se H1-H4 sono fissaggi,0,,,,,,
-KEY1-KEY4,4,Keycap 1U compatibile MX,MX cross 1U,,Da comprare altrove - LCSC non ne ha trovati di compatibili,0,,,,,,
-,,,,,,,,,,,,
-LCSC cart,4,Righe nel carrello,Prezzi schermata 2026-09-22,,,Merce,,,,8.16,USD,
-LCSC cart,,,Spedizione Global Direct Standard 7-15 giorni,,,Spedizione,,,,10.13,USD,
-LCSC cart,,,Handling fee,,,Gestione,,,,3.00,USD,
-LCSC checkout,,,Tariff,,,Dazi e imposte,,,,13.72,USD,
-LCSC checkout,,,Merchandise discount,,,Sconto,,,,-0.02,USD,
-LCSC checkout,,,Totale checkout,,,Totale,,,,34.99,USD,
-JLCPCB,5,PCB Pathfinder,Y-6925100A,,,Merce,,,,4.00,USD,
-JLCPCB,,,Global Standard Direct Line 12-16 giorni,,,Spedizione,,,,1.50,USD,
-JLCPCB,,,Customs duties & taxes,,,IVA e dazi,,,,4.70,USD,
-JLCPCB,,,Totale checkout,,Schermata 2026-09-22,Totale,,,,10.20,USD,
+Designators,Qty Required,Item,Specification / Footprint,Status,LCSC Product,Final Price
+U1,1,Seeed Studio XIAO RP2040,102010428; XIAO-Generic-Hybrid-14P-2.54-21X17.8MM,In LCSC cart,https://www.lcsc.com/product-detail/C22184628.html,
+SW1-SW4,4,Cherry MX-compatible mechanical switch,CPG151101D06; SW_Cherry_MX_1.00u_PCB,5 in LCSC cart; verify 5-pin MX fit before checkout,https://www.lcsc.com/product-detail/C49234237.html,
+D1-D4,4,Addressable RGB LED,SK6812MINI-E reverse-mount; LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount,10 in LCSC cart,https://www.lcsc.com/product-detail/C5149201.html,
+C1-C4,4,100 nF THT ceramic capacitor,K104Z15Y5VF5TL2; C_Disc_D5.0mm_W2.5mm_P2.50mm,10 in LCSC cart,https://www.lcsc.com/product-detail/C2169670.html,
+R1-R4,4,1 kOhm THT resistor,7.62 mm axial footprint,Optional; populate only if H1-H4 are used as GPIO,https://www.lcsc.com/product-detail/C57435.html,
+R5,1,330 Ohm THT resistor,7.62 mm axial footprint,Required; not in the shown LCSC cart,https://www.lcsc.com/product-detail/C119313.html,
+J1A1-J1B1,2,1x7 male pin header,2.54 mm vertical THT,Optional; cut two 1x7 headers from a 1x40 strip,https://www.lcsc.com/product-detail/C2337.html,
+H1-H4,4,M4 screws and standoffs,4.3 mm mounting holes,Optional; required only when the holes are used for mounting,,
+KEY1-KEY4,4,1U MX-compatible keycap,MX cross stem,Required for a finished macropad; buy outside LCSC,,
+Parts,,,,LCSC checkout shown on 2026-09-22; excludes items not in the cart,,$34.99 USD
+PCB,,,,JLCPCB checkout shown on 2026-09-22,,$10.20 USD
+Total,,,,Parts plus PCB,,${45.19} USD
