@@ -1,14 +1,18 @@
-Designator,Qty_Required,Component,Value,Footprint,Note,Qty_To_Buy,Prezzo unitario EUR,Prezzo totale EUR,Link
-U1,1,Seeed Studio XIAO RP2040,MOUDLE-SEEEDUINO-XIAO,XIAO-Generic-Hybrid-14P-2.54-21X17.8MM,Microcontrollore,1,16.09,16.09,https://www.aliexpress.com/item/1005007427287029.html 
-J1A1-J1B1,2,Pin header maschio 1x7,Conn_01x07,PinHeader_1x07_P2.54mm_Vertical,Opzionale,0,0,0,
-SW1-SW4,4,Switch compatibile Cherry MX,SW_Push,SW_Cherry_MX_1.00u_PCB,PCB mount 5 pin 1u,10,,6.62,https://www.aliexpress.com/item/1005008998414457.html 
-D1-D4,4,SK6812MINI-E,SK6812MINI-E,LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount,LED RGB indirizzabile reverse mount,20,,2.35,https://www.aliexpress.com/item/1005005193716172.html 
-C1-C4,4,Condensatore ceramico,100 nF,C_Disc_D5.0mm_W2.5mm_P2.50mm,Disaccoppiamento LED,,,2.29,https://www.aliexpress.com/item/32868001945.html 
-R1-R4,4,Resistenza,1 kOhm,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Solo se H1-H4 sono GPIO,,,1.75,https://www.aliexpress.com/item/32948115055.html
-R5,1,Resistenza,330 Ohm,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,In serie al DIN dei LED,,,1.83,https://www.aliexpress.com/item/32948115055.html 
-H1-H4,4,Foro per montaggio,M4 4.3 mm,MountingHole_Pad,Solo se usati per montaggio,0,0,0,
-,,,,,,Part only=,,30.93,
-,,,,, import charges ALIEXPRESS =,,,21.47,
-,,,,,Final part (- 3.14 discount),,,49.26,
-,,,PBC (cheapest shipping+desktop app),,,,,8.88,
-,,,,,,,FULL,58.14,
+Designator,Qty_Required,Component,Value,Footprint,Stato,Qty_To_Buy,LCSC#,MPN,Prezzo unitario,Prezzo riga,Valuta,Link
+U1,1,Seeed Studio XIAO RP2040,102010428,XIAO-Generic-Hybrid-14P-2.54-21X17.8MM,Nel carrello LCSC,1,C22184628,102010428,5.4933,5.49,USD,https://www.lcsc.com/product-detail/C22184628.html
+SW1-SW4,4,Switch meccanico compatibile Cherry MX,CPG151101D06,SW_Cherry_MX_1.00u_PCB,Nel carrello LCSC - verificare impronta MX 5 pin prima di ordinare,5,C49234237,CPG151101D06,0.1072,0.54,USD,https://www.lcsc.com/product-detail/C49234237.html
+D1-D4,4,LED RGB indirizzabile reverse-mount,SK6812MINI-E,LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount,Nel carrello LCSC,10,C5149201,SK6812MINI-E,0.0809,0.81,USD,https://www.lcsc.com/product-detail/C5149201.html
+C1-C4,4,Condensatore ceramico THT 100 nF,100 nF,C_Disc_D5.0mm_W2.5mm_P2.50mm,Nel carrello LCSC,10,C2169670,K104Z15Y5VF5TL2,0.1297,1.30,USD,https://www.lcsc.com/product-detail/C2169670.html
+R1-R4,4,Resistenza THT 1 kOhm,1 kOhm,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Opzionale - serve solo se H1-H4 sono GPIO,0,C57435,MFR0W4F1001A50,0.0141,0.00,USD,https://www.lcsc.com/product-detail/C57435.html
+R5,1,Resistenza THT 330 Ohm,330 Ohm,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,OBBLIGATORIA - non nel carrello mostrato,0,C119313,MF1/4W-330Ohm,0.0116,0.00,USD,https://www.lcsc.com/product-detail/C119313.html
+J1A1-J1B1,2,Pin header maschio 1x7 2.54 mm,Conn_01x07,PinHeader_1x07_P2.54mm_Vertical,Opzionale - selezionato ma non nel carrello mostrato,0,C2337,2.54-1*40P,0.1601,0.00,USD,https://www.lcsc.com/product-detail/C2337.html
+H1-H4,4,Viti M4 e distanziali,M4 4.3 mm,MountingHole_Pad,Opzionale - solo se H1-H4 sono fissaggi,0,,,,,,
+KEY1-KEY4,4,Keycap 1U compatibile MX,MX cross 1U,,Da comprare altrove - LCSC non ne ha trovati di compatibili,0,,,,,,
+,,,,,,,,,,,,
+LCSC cart,4,Righe nel carrello,Prezzi schermata 2026-09-22,,,Merce,,,,8.16,USD,
+LCSC cart,,,Spedizione Global Direct Standard 7-15 giorni,,,Spedizione,,,,10.13,USD,
+LCSC cart,,,Handling fee,,,Gestione,,,,3.00,USD,
+LCSC checkout,,,Tariff,,,Dazi e imposte,,,,13.72,USD,
+LCSC checkout,,,Merchandise discount,,,Sconto,,,,-0.02,USD,
+LCSC checkout,,,Totale checkout,,,Totale,,,,34.99,USD,
+JLCPCB,5,PCB Pathfinder,Y-6925100A,,,Merce + spedizione + IVA/dazi,,,,8.90,EUR,
